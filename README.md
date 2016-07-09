@@ -1,5 +1,5 @@
 Deutsche eMark Zahlungsmöglichkeit für OpenCart 2.1, das mit eMarkd via RPC arbeitet.
-
+  
 
 FEATURES  
 
@@ -24,12 +24,12 @@ INSTALL
 2. Install, configure and activate the BitCoin module  
 
 
-RPC Host: localhost or IP
+RPC Host: localhost or IP  
 RPC Port: 7777  
 RPC Path: (leave blank)  
-RPC User: <username>
-RPC Password: <password>
-Bitcoin Currency: Select Euro (only Euro, work with API '/catalog/controller/payment/bitcoin.php - Line 50-60')
+RPC User: <username>  
+RPC Password: <password>  
+Bitcoin Currency: Select Euro (only Euro, work with API '/catalog/controller/payment/bitcoin.php - Line 50-60')  
 QR Code: Google API  
 Order Total: 1  
 Order Status: Processing  
