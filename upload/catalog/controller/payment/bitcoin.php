@@ -48,6 +48,7 @@ class ControllerPaymentBitCoin extends Controller {
 
     public function index() {
 		
+		// Um den Wert selbst festzulegen, ändere $dem in den Gewünschten Wert und lösche bzw kommentiere $cache aus!
 		$cache = file_get_contents("http://deutsche-emark.de/api/lastDataOC.txt");
 		$dem = number_format($cache, 6);
 
