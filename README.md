@@ -27,9 +27,9 @@ INSTALL
 RPC Host: localhost or IP  
 RPC Port: 7777  
 RPC Path: (leave blank)  
-RPC User: <username>  
-RPC Password: <password>  
-Bitcoin Currency: Select Euro (only Euro, work with API '/catalog/controller/payment/bitcoin.php - Line 50-60')  
+RPC User: username>  
+RPC Password: password  
+Bitcoin Currency: Select Euro (work with API '/catalog/controller/payment/bitcoin.php - Line 50-60')  
 QR Code: Google API  
 Order Total: 1  
 Order Status: Processing  
