@@ -44,3 +44,6 @@ PROJECT DONATE
 
 BTC: 1HdK2ppceaMvJSZqwEnQcpVaSe2xX3HYEa  
 Forked BTC: 1HABcPRvwdnA1yAGTd9ukpLk82Zaei1yV3
+
+
+[Tutorial] eMark-qt & eMarkd unter Linux installieren - http://forum.deutsche-emark.de/showthread.php?tid=457
