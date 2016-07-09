@@ -47,13 +47,15 @@ class ControllerPaymentBitCoin extends Controller {
     }
 
     public function index() {
+		
+		$cache = file_get_contents("http://deutsche-emark.de/api/lastDataOC.txt");
+		$dem = number_format($cache, 6);
 
         // Create invoice
         $data['text_instruction'] = $this->language->get('text_instruction');
         $data['text_loading']     = $this->language->get('text_loading');
         $data['text_description'] = sprintf($this->language->get('text_description'),
-                                            $this->currency->format($this->cart->getTotal(),
-                                            $this->config->get('bitcoin_currency')));
+                                            number_format($this->cart->getTotal() * $dem, 6));
 
         $data['button_confirm']   = $this->language->get('button_confirm');
         $data['continue']         = $this->url->link('checkout/success');
