@@ -6,7 +6,6 @@ FEATURES
 ✯  Real standalone 'Deutsche eMark' module: receive your coins directly without any third-parties  
 ✯  Clean and crisp module, no file modifications  
 ✯  Compatible with every theme  
-✯  Automatic currency conversion when the DEM payment was changed  
 ✯  Minimum Order Total amount settings  
 ✯  Custom Geo-Zone settings  
 ✯  QR Code support  
