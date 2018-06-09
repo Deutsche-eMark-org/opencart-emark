@@ -48,7 +48,7 @@ class ControllerPaymentBitCoin extends Controller {
 
     public function index() {
 		
-		$cache = file_get_contents("http://deutsche-emark.de/api/lastDataOC.txt");
+		$cache = file_get_contents("https://api.deutsche-emark.org/lastDataOC.txt");
 		$dem = number_format($cache, 6);
 
 
